@@ -2,14 +2,12 @@
 <html lang="ru">
 
 <head>
-	<title>Главная</title>
+	<title>IPD</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220831195348">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220901144645">
 	<link rel="shortcut icon" href="favicon.ico">
-	<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:700,800&display=swap&_v=20220831195348" rel="stylesheet" />
-	<link href="https://fonts.googleapis.com/css?family=Aguafina+Script:regular&display=swap&_v=20220831195348" rel="stylesheet" />
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -27,25 +25,25 @@
 						<nav class="menu__body">
 							<ul class="menu__list">
 								<li class="menu__item">
-									<a href="" class="menu__link">О нас</a>
+									<a href="#" data-goto-header data-goto-top="30" data-goto=".about-us" class="menu__link">О нас</a>
 								</li>
 								<li class="menu__item">
-									<a href="" class="menu__link">Услуги</a>
+									<a href="#" data-goto-header data-goto-top="5" data-goto=".services" class="menu__link">Услуги</a>
 								</li>
 								<li class="menu__item">
-									<a href="" class="menu__link">Проекты</a>
+									<a href="#" data-goto-header data-goto-top="5" data-goto=".project" class="menu__link">Проекты</a>
 								</li>
 								<li class="menu__item">
-									<a href="" class="menu__link">Партнеры</a>
+									<a href="#" data-goto-header data-goto-top="5" data-goto=".partners" class="menu__link">Партнеры</a>
 								</li>
 								<li class="menu__item">
-									<a href="" class="menu__link">Сотрудничество</a>
+									<a href="#" data-goto-header data-goto-top="5" data-goto=".cooperation" class="menu__link">Сотрудничество</a>
 								</li>
 								<li class="menu__item">
-									<a href="" class="menu__link">Новости</a>
+									<a href="#" data-goto-header data-goto-top="5" data-goto=".joonal" class="menu__link">Новости</a>
 								</li>
 								<li class="menu__item">
-									<a href="" class="menu__link">Контакты</a>
+									<a href="#" data-goto-header data-goto-top="5" data-goto=".contact" class="menu__link">Контакты</a>
 								</li>
 							</ul>
 						</nav>
@@ -65,7 +63,7 @@
 							<span>ЛИДЕРЫ</span> В ОБЛАСТИ КАЧЕСТВЕННОГО СТРОИТЕЛЬСТВА
 						</h1>
 						<div class="main__text">Поможем подобрать выгодные инвестиции в местную недвижимость</div>
-						<div class="main__buttons">
+						<div data-goto=".form-block" class="main__buttons">
 							<button class="main__button button">Подобрать квартиру</button>
 							<div class="main__button-shadow button-shadow"></div>
 							<a href="#" class="main__image-button">
@@ -235,6 +233,222 @@
 					</div>
 				</div>
 			</section>
+			<section class="page__form-block form-block">
+				<div class="form-block__container">
+					<div class="form-block__content">
+						<div class="form-block__body">
+							<h3 class="form-block__title title">Подберём для вас хороший вариант квартиры и график оплаты </h3>
+							<form action="#" class="form-block__form">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Имя" class="form__name">
+								<input autocomplete="off" type="tel" name="form[]" data-error="Ошибка" placeholder="Номер" class="form__number">
+								<div class="form__buttons">
+									<button class="form__button button">Записаться на консультацию</button>
+									<div class="form__button-shadow button-shadow"></div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="page__partners partners">
+				<div class="partners__container">
+					<h2 class="partners__title title">Партнеры</h2>
+				</div>
+				<div class="partners__image">
+					<picture><source srcset="img/partners/01.webp" type="image/webp"><img src="img/partners/01.png" alt="partners"></picture>
+				</div>
+			</div>
+			<section class="page__joonal joonal">
+				<div class="joonal__container">
+					<h2 class="joonal__title title">Журнал</h2>
+					<div class="joonal__body">
+						<!-- Оболочка слайдера -->
+						<div class="joonal__slider swiper-two">
+							<!-- Двигающееся часть слайдера -->
+							<div class="joonal__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="joonal__slide swiper-slide">
+									<div class="cards-joonal__joonal-card">
+										<h5 class="joonal-card__title">Проблемы с соседями. </h5>
+										<div class="joonal-card__text">Как это очень часто бывает, при покупке квартиры вы "покупаете" ещё и соседей. К сожалению, со временем во многих новостройках появляется очень много "квартирантов", а с годами район вообще</div>
+										<div class="joonal-card__image">
+											<picture><source srcset="img/joonal/01.webp" type="image/webp"><img src="img/joonal/01.png" alt="shadow"></picture>
+										</div>
+										<div class="joonal-card__shadow">
+											<picture><source srcset="img/joonal/shadow.webp" type="image/webp"><img src="img/joonal/shadow.png" alt="shadow"></picture>
+										</div>
+
+									</div>
+								</div>
+								<div class="joonal__slide swiper-slide">
+									<div class="cards-joonal__joonal-card">
+										<h5 class="joonal-card__title">Что значит дом премиум качества?
+										</h5>
+										<div class="joonal-card__text">Сейчас, застройщики часто "разбрасываются" понятием" качество премиум класса. Но давайте разберёмся, какой проект можно считать таковым? АРХИТЕКТУРА Проект дома обязательно разрабатывается индивидуально: это не
+											типовое здание с неприметным фасадом, а нечто уникальное, над чем трудилась команда дизайнеров.
+										</div>
+										<div class="joonal-card__image">
+											<picture><source srcset="img/joonal/02.webp" type="image/webp"><img src="img/joonal/02.png" alt="shadow"></picture>
+										</div>
+										<div class="joonal-card__shadow">
+											<picture><source srcset="img/joonal/shadow.webp" type="image/webp"><img src="img/joonal/shadow.png" alt="shadow"></picture>
+										</div>
+
+									</div>
+								</div>
+								<div class="joonal__slide swiper-slide">
+									<div class="cards-joonal__joonal-card">
+										<h5 class="joonal-card__title">Проблемы с соседями. </h5>
+										<div class="joonal-card__text">Как это очень часто бывает, при покупке квартиры вы "покупаете" ещё и соседей. К сожалению, со временем во многих новостройках появляется очень много "квартирантов", а с годами район вообще</div>
+										<div class="joonal-card__image">
+											<picture><source srcset="img/joonal/03.webp" type="image/webp"><img src="img/joonal/03.png" alt="shadow"></picture>
+										</div>
+										<div class="joonal-card__shadow">
+											<picture><source srcset="img/joonal/shadow.webp" type="image/webp"><img src="img/joonal/shadow.png" alt="shadow"></picture>
+										</div>
+
+									</div>
+								</div>
+								<div class="joonal__slide swiper-slide">
+									<div class="cards-joonal__joonal-card">
+										<h5 class="joonal-card__title">Проблемы с соседями. </h5>
+										<div class="joonal-card__text">Как это очень часто бывает, при покупке квартиры вы "покупаете" ещё и соседей. К сожалению, со временем во многих новостройках появляется очень много "квартирантов", а с годами район вообще</div>
+
+										<div class="joonal-card__image">
+											<picture><source srcset="img/joonal/04.webp" type="image/webp"><img src="img/joonal/04.png" alt="shadow"></picture>
+										</div>
+										<div class="joonal-card__shadow">
+											<picture><source srcset="img/joonal/shadow.webp" type="image/webp"><img src="img/joonal/shadow.png" alt="shadow"></picture>
+										</div>
+									</div>
+								</div>
+								<div class="joonal__slide swiper-slide">
+									<div class="cards-joonal__joonal-card">
+										<h5 class="joonal-card__title">Проблемы с соседями. </h5>
+										<div class="joonal-card__text">Как это очень часто бывает, при покупке квартиры вы "покупаете" ещё и соседей. К сожалению, со временем во многих новостройках появляется очень много "квартирантов", а с годами район вообще</div>
+										<div class="joonal-card__image">
+											<picture><source srcset="img/joonal/05.webp" type="image/webp"><img src="img/joonal/05.png" alt="shadow"></picture>
+										</div>
+										<div class="joonal-card__shadow">
+											<picture><source srcset="img/joonal/shadow.webp" type="image/webp"><img src="img/joonal/shadow.png" alt="shadow"></picture>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<!-- Если нужна навигация (влево/вправо) -->
+							<div class="joonal__dots">
+								<button type="button" class="swiper-button-prev"><img src="img/svg/polygon.svg" alt="arrow"></button>
+								<button type="button" class="swiper-button-next"><img src="img/svg/polygon.svg" alt="arrow"></button>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+
+			</section>
+			<section class="page__cooperation cooperation">
+				<div class="cooperation__container">
+					<div class="cooperation__content">
+						<h2 class="cooperation__title title">сотрудничество</h2>
+						<div class="cooperation__text"> Компания ОсОО “Инновационный Прогрессирующий Девелопмент” приглашает к сотрудничеству</div>
+						<div class="cooperation__designer-block designer-block">
+							<div class="designer-block__image">
+								<picture><source srcset="img/cooperation/01.webp" type="image/webp"><img src="img/cooperation/01.png" alt="img"></picture>
+							</div>
+							<div class="designer-block__body">
+								<p>- Проектировщиков, которые занимаются разработкой чертежей для индивидуальных домов. Это уникальная возможность  - улучшить вид города и пополнить собсвенное портфолио</p>
+								<p>Мы предоставляем широкие возможности для привлечения клиентов и продвижения взаимных интересов. Мы хотим, чтобы наши клиенты получали проектную документацию высокого качества с учетом современных требований проектирования
+									и эксплуатации стеновых конструкций и элементов зданий и сооружений.</p>
+							</div>
+
+
+						</div>
+						<div class="cooperation__lawyer-block lawyer-block">
+							<div class="lawyer-block__body">
+								<p>- Юристов. <br> Мы готовы предложить качественный партнерский сервис для вашего бизнеса по привлечению новых клиентов по вопросам арбитражных споров, юридического сопровождения проектов и консультирования физических и юридических
+									лиц. </p>
+							</div>
+							<div class="lawyer-block__image">
+								<picture><source srcset="img/cooperation/02.webp" type="image/webp"><img src="img/cooperation/02.png" alt="img"></picture>
+							</div>
+						</div>
+						<div class="cooperation__agent-block agent-block">
+							<div class="agent-block__image">
+								<picture><source srcset="img/cooperation/03.webp" type="image/webp"><img src="img/cooperation/03.png" alt="img"></picture>
+							</div>
+							<div class="agent-block__body">
+								<p>- Агентствам недвижимости и свободным агентам. Если Вы Агентство недвижимости или свободный агент имеющий опыт в сфере продажи недвижимости. У Вас есть желание расширить свой бизнес и получить дополнительный доход при поддержке
+									нашей команды. Если Ваш ответ ДА, у нас есть что предложить Вам.
+								</p>
+								<p> на сегодняшний день мы являемся ведущей компанией по застройке и продаже недвижимости в Кыргызстане. Мы работаем только с крупнейшими Строительными подрядами, занимающими лидирующие позиции в сфере строительства недвижимости,
+									имеющими безупречную репутацию среди клиентов и партнёров, гарантирующими соблюдение обязательств.
+								</p>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__document document">
+				<div class="document__container">
+					<h2 class="document__title title">документы</h2>
+					<div class="document__image">
+						<picture><source srcset="img/document/01.webp" type="image/webp"><img src="img/document/01.png" alt="document"></picture>
+					</div>
+				</div>
+			</section>
+			<section class="page__form-block form-block">
+				<div class="form-block__container">
+					<div class="form-block__content">
+						<div class="form-block__body">
+							<h3 class="form-block__title title">Подберём для вас хороший вариант квартиры и график оплаты </h3>
+							<form action="#" class="form-block__form">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Имя" class="form__name">
+								<input autocomplete="off" type="tel" name="form[]" data-error="Ошибка" placeholder="Номер" class="form__number">
+								<div class="form__buttons">
+									<button class="form__button button">Записаться на консультацию</button>
+									<div class="form__button-shadow button-shadow"></div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__contact contact">
+				<div class="contact__container">
+					<div class="contact__content">
+
+						<div class="contact__body">
+							<h2 class="contact__title title">Контакты</h2>
+							<div class="contact__links">
+								<a href="https://goo.gl/maps/FaZAgoqfr4mxFv9e7" target="_blank" class="contact__link-adress">
+									<img src="img/contact/01.svg" alt="contact-linnk-image"> <span>Адрес Тоголок Молдо 3 Б</span></a>
+								<a href="tel:0502022220" class="contact__link-number">
+									<img src="img/contact/02.svg" alt="contact-linnk-image"> <span>0502 02 22 20</span></a>
+								<a href="mailto: lpd.holding@gmail.com" class="contact__link-email">
+									<img src="img/contact/03.svg" alt="contact-linnk-image"> <span>lpd.holding@gmail.com</span></a>
+							</div>
+							<div class="contact__socials socials">
+								<a href="#" class="socials__link">
+									<img src="img/contact/social01.svg" alt="social">
+								</a>
+								<a href="#" class="socials__link">
+									<img src="img/contact/social01.svg" alt="social">
+								</a>
+								<a href="#" class="socials__link">
+									<img src="img/contact/social01.svg" alt="social">
+								</a>
+							</div>
+						</div>
+						<div class="contact__map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d774.4621827936643!2d74.5952774107893!3d42.87326876734424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7df2672811b%3A0xc7586dc754bdedc6!2zMyDRg9C7LiDQotC-0LPQvtC70L7QuiDQnNC-0LvQtNC-LCDQkdC40YjQutC10LosINCa0YvRgNCz0YvQt9GB0YLQsNC9!5e0!3m2!1sru!2sua!4v1662027959591!5m2!1sru!2sua" width="100%" height="558" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
@@ -251,7 +465,7 @@
 		</div>
 	</div>
 </div> -->
-	<script src="js/app.min.js?_v=20220831195348"></script>
+	<script src="js/app.min.js?_v=20220901144645"></script>
 </body>
 
 </html>
