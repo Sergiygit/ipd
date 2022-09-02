@@ -168,8 +168,8 @@ body {
 }
 
 .button {
-  background: -o-linear-gradient(0.28deg, #021A12 1.43%, #01553B 48.97%, #028A61 95.6%);
-  background: linear-gradient(89.72deg, #021A12 1.43%, #01553B 48.97%, #028A61 95.6%);
+  background: -o-linear-gradient(0.28deg, #2240A9 1.43%, #57BEEA 48.97%, #2240A9 82.01%, #104A63 95.6%);
+  background: linear-gradient(89.72deg, #2240A9 1.43%, #57BEEA 48.97%, #2240A9 82.01%, #104A63 95.6%);
   border-radius: 16px;
   color: #fff;
 }
@@ -206,8 +206,8 @@ body {
 }
 
 .button-shadow {
-  background: -o-linear-gradient(359.93deg, #EDD877 4.21%, #F7EF9A 45.13%, #CF9C2F 91.92%);
-  background: linear-gradient(90.07deg, #EDD877 4.21%, #F7EF9A 45.13%, #CF9C2F 91.92%);
+  background: -o-linear-gradient(359.93deg, #61DAEB 4.21%, #FFFFFF 45.13%, #4567BF 91.92%);
+  background: linear-gradient(90.07deg, #61DAEB 4.21%, #FFFFFF 45.13%, #4567BF 91.92%);
   border-radius: 16px;
   height: 100%;
   width: 100%;
@@ -428,8 +428,6 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 100%;
           flex: 1 0 100%;
-  background: -o-linear-gradient(359.93deg, #F9EF99 4.21%, #8CBF3D 45.13%, #0E8D40 91.92%);
-  background: linear-gradient(90.07deg, #F9EF99 4.21%, #8CBF3D 45.13%, #0E8D40 91.92%);
 }
 
 .header__button-mini {
@@ -598,7 +596,9 @@ body {
 }
 
 .main__buttons {
-  display: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   position: relative;
 }
 
@@ -647,9 +647,7 @@ body {
 
 .main__button-shadow {
   position: absolute;
-  background: -o-linear-gradient(359.93deg, #EDD877 4.21%, #F7EF9A 45.13%, #CF9C2F 91.92%);
-  background: linear-gradient(90.07deg, #EDD877 4.21%, #F7EF9A 45.13%, #CF9C2F 91.92%);
-  border-radius: 16px;
+  border-radius: 18px;
   height: 100%;
   width: 100%;
   left: 0;
@@ -898,9 +896,9 @@ body {
   line-height: 1.1666666667;
   text-align: center;
   padding: 1.25rem 15px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#021B13), color-stop(62.5%, #015038), to(#028B62));
-  background: -o-linear-gradient(top, #021B13 0%, #015038 62.5%, #028B62 100%);
-  background: linear-gradient(180deg, #021B13 0%, #015038 62.5%, #028B62 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#0F2F82), color-stop(62.5%, #1D8383), to(#305997));
+  background: -o-linear-gradient(top, #0F2F82 0%, #1D8383 62.5%, #305997 100%);
+  background: linear-gradient(180deg, #0F2F82 0%, #1D8383 62.5%, #305997 100%);
   color: #fff;
 }
 
@@ -1459,9 +1457,7 @@ body {
 
 .form__button-shadow {
   position: absolute;
-  background: -o-linear-gradient(359.93deg, #EDD877 4.21%, #F7EF9A 45.13%, #CF9C2F 91.92%);
-  background: linear-gradient(90.07deg, #EDD877 4.21%, #F7EF9A 45.13%, #CF9C2F 91.92%);
-  border-radius: 16px;
+  border-radius: 18px;
   height: 100%;
   width: 100%;
   left: 0;
@@ -3368,38 +3364,22 @@ body {
 }
 
 @media (any-hover: hover) {
-  .header__button:hover {
+  .button:hover {
     -webkit-transform: translate(0, 3px);
         -ms-transform: translate(0, 3px);
             transform: translate(0, 3px);
-    -webkit-box-shadow: 0 0 15px rgba(20, 150, 42, 0.541);
-            box-shadow: 0 0 15px rgba(20, 150, 42, 0.541);
+    -webkit-box-shadow: 0 0 15px rgba(21, 83, 216, 0.515);
+            box-shadow: 0 0 15px rgba(21, 83, 216, 0.515);
   }
 
   .menu__item a:hover::after {
     width: 100%;
   }
 
-  .main__button:hover {
-    -webkit-transform: translate(0, 2.8px);
-        -ms-transform: translate(0, 2.8px);
-            transform: translate(0, 2.8px);
-    -webkit-box-shadow: 0 0 15px rgba(20, 150, 42, 0.541);
-            box-shadow: 0 0 15px rgba(20, 150, 42, 0.541);
-  }
-
   .items-services__services-item:hover img {
     -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
             transform: scale(1.1);
-  }
-
-  .form__button:hover {
-    -webkit-transform: translate(0, 2.8px);
-        -ms-transform: translate(0, 2.8px);
-            transform: translate(0, 2.8px);
-    -webkit-box-shadow: 0 0 15px rgba(20, 150, 42, 0.541);
-            box-shadow: 0 0 15px rgba(20, 150, 42, 0.541);
   }
 
   .joonal__slide:hover img {
