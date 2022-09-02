@@ -563,6 +563,10 @@ body {
   }
 }
 
+.main__title span {
+  color: #4378DF;
+}
+
 .main__text {
   max-width: 50rem;
   font-weight: 800;
@@ -2871,7 +2875,9 @@ body {
       max-height: calc(21.25rem + 10.625 * (100vw - 62rem) / 58);
     }
 }
+}
 
+@media (min-width: 61.9875em) {
   .joonal__dots {
     display: none;
   }
@@ -3169,7 +3175,9 @@ body {
   .form__button-shadow {
     opacity: 0.5;
   }
+}
 
+@media (max-width: 61.9875em) {
   .joonal__dots {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
