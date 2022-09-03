@@ -3411,9 +3411,9 @@ body {
   }
 
   .form__button:hover {
-    -webkit-transform: translate(0, 2.6px);
-        -ms-transform: translate(0, 2.6px);
-            transform: translate(0, 2.6px);
+    -webkit-transform: translate(0, 2.4px);
+        -ms-transform: translate(0, 2.4px);
+            transform: translate(0, 2.4px);
     -webkit-box-shadow: 0 0 15px rgba(21, 83, 216, 0.515);
             box-shadow: 0 0 15px rgba(21, 83, 216, 0.515);
   }
