@@ -1463,7 +1463,7 @@ body {
 .form__button-shadow {
   position: absolute;
   border-radius: 18px;
-  height: 99%;
+  height: 98%;
   width: 100%;
   left: 0;
   top: 3px;
