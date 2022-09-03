@@ -295,7 +295,6 @@ body {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   position: relative;
-  height: 5rem;
   min-width: 7.5rem;
 }
 
