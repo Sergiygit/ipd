@@ -2315,9 +2315,9 @@ body {
 }
 
 .contact__links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -2385,6 +2385,37 @@ body {
   left: 0;
 }
 
+.contact__link-numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+@supports (margin-bottom: clamp( 1.25rem , 0.8863636364rem  +  1.8181818182vw , 2.375rem )) {
+  .contact__link-numbers {
+    margin-bottom: clamp( 1.25rem , 0.8863636364rem  +  1.8181818182vw , 2.375rem );
+  }
+}
+
+@supports not (margin-bottom: clamp( 1.25rem , 0.8863636364rem  +  1.8181818182vw , 2.375rem )) {
+  .contact__link-numbers {
+    margin-bottom: calc(1.25rem + 1.125 * (100vw - 20rem) / 61.875);
+  }
+}
+
+.contact__link-numbers-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .contact__link-number {
   line-height: 106.09%;
 }
@@ -2401,15 +2432,15 @@ body {
   }
 }
 
-@supports (margin-bottom: clamp( 1.25rem , 0.8863636364rem  +  1.8181818182vw , 2.375rem )) {
+@supports (margin-bottom: clamp( 0.625rem , 0.4633838384rem  +  0.8080808081vw , 1.125rem )) {
   .contact__link-number {
-    margin-bottom: clamp( 1.25rem , 0.8863636364rem  +  1.8181818182vw , 2.375rem );
+    margin-bottom: clamp( 0.625rem , 0.4633838384rem  +  0.8080808081vw , 1.125rem );
   }
 }
 
-@supports not (margin-bottom: clamp( 1.25rem , 0.8863636364rem  +  1.8181818182vw , 2.375rem )) {
+@supports not (margin-bottom: clamp( 0.625rem , 0.4633838384rem  +  0.8080808081vw , 1.125rem )) {
   .contact__link-number {
-    margin-bottom: calc(1.25rem + 1.125 * (100vw - 20rem) / 61.875);
+    margin-bottom: calc(0.625rem + 0.5 * (100vw - 20rem) / 61.875);
   }
 }
 
