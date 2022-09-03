@@ -467,7 +467,8 @@ body {
   position: absolute;
   height: 2px;
   width: 0%;
-  background: #000;
+  background: -o-linear-gradient(0.28deg, #2240A9 1.43%, #57BEEA 48.97%, #2240A9 82.01%, #104A63 95.6%);
+  background: linear-gradient(89.72deg, #2240A9 1.43%, #57BEEA 48.97%, #2240A9 82.01%, #104A63 95.6%);
   bottom: 0;
   left: 0;
 }
@@ -3396,6 +3397,10 @@ body {
             box-shadow: 0 0 15px rgba(21, 83, 216, 0.515);
   }
 
+  .menu__item a:hover {
+    color: #222ba9;
+  }
+
   .menu__item a:hover::after {
     width: 100%;
   }
@@ -3407,9 +3412,9 @@ body {
   }
 
   .form__button:hover {
-    -webkit-transform: translate(0, 2.8px);
-        -ms-transform: translate(0, 2.8px);
-            transform: translate(0, 2.8px);
+    -webkit-transform: translate(0, 2.6px);
+        -ms-transform: translate(0, 2.6px);
+            transform: translate(0, 2.6px);
     -webkit-box-shadow: 0 0 15px rgba(21, 83, 216, 0.515);
             box-shadow: 0 0 15px rgba(21, 83, 216, 0.515);
   }
