@@ -2510,9 +2510,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
 
 @supports (gap: clamp( 0.9375rem , 0.6748737374rem  +  1.3131313131vw , 1.75rem )) {
@@ -2548,27 +2548,27 @@ body {
   overflow: hidden;
 }
 
-@supports (width: clamp( 3.5rem , 2.6919191919rem  +  4.0404040404vw , 6rem )) {
+@supports (width: clamp( 3.5rem , 3.5rem  +  0vw , 3.5rem )) {
   .socials__link {
-    width: clamp( 3.5rem , 2.6919191919rem  +  4.0404040404vw , 6rem );
+    width: clamp( 3.5rem , 3.5rem  +  0vw , 3.5rem );
   }
 }
 
-@supports not (width: clamp( 3.5rem , 2.6919191919rem  +  4.0404040404vw , 6rem )) {
+@supports not (width: clamp( 3.5rem , 3.5rem  +  0vw , 3.5rem )) {
   .socials__link {
-    width: calc(3.5rem + 2.5 * (100vw - 20rem) / 61.875);
+    width: calc(3.5rem + 0 * (100vw - 20rem) / 61.875);
   }
 }
 
-@supports (height: clamp( 3.4375rem , 2.6294191919rem  +  4.0404040404vw , 5.9375rem )) {
+@supports (height: clamp( 3.4375rem , 3.4375rem  +  0vw , 3.4375rem )) {
   .socials__link {
-    height: clamp( 3.4375rem , 2.6294191919rem  +  4.0404040404vw , 5.9375rem );
+    height: clamp( 3.4375rem , 3.4375rem  +  0vw , 3.4375rem );
   }
 }
 
-@supports not (height: clamp( 3.4375rem , 2.6294191919rem  +  4.0404040404vw , 5.9375rem )) {
+@supports not (height: clamp( 3.4375rem , 3.4375rem  +  0vw , 3.4375rem )) {
   .socials__link {
-    height: calc(3.4375rem + 2.5 * (100vw - 20rem) / 61.875);
+    height: calc(3.4375rem + 0 * (100vw - 20rem) / 61.875);
   }
 }
 
